@@ -1,4 +1,4 @@
-var multiplier = [1.5, 1.75, 2.05, 2.4, 2.8];
+var multiplier = [0, 1.5, 1.75, 2.05, 2.4, 2.8];
 var list = [];
 var reduces = 0;
 var totalPrice = 0;
