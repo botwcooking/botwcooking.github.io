@@ -11,7 +11,7 @@ $(document).ready(function(){
 			$("#marker" + i).append("<p class=\"col-sm-6\">" + item.name.charAt(0).toUpperCase() + "</p>");
 			$("#marker" + i).append("<div class=\"col-sm-6\"></div>");
 		}
-		$("#inputs" + column).append("<div id=\"input" + i + "\">");
+		$("#inputs" + column).append("<div class=\"row\" id=\"input" + i + "\">");
 		$("#input" + i).append("<p class=\"col-sm-6\">" + item.name + "</p>");
 		$("#input" + i).append("<input class=\"col-sm-6\" type=\"number\" min=\"0\" value=\"2\" id=\"inputItem" + item.id + "\">")
 		//$("#inputs" + column).children().eq(0).append(item.name + "<br />");
