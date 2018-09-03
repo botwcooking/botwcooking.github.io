@@ -1,0 +1,53 @@
+#input {
+	background-image: url("https://cdn-images-1.medium.com/max/1600/1*P1UlWpIUrKqQT1Izc9nCpw.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+#input > .row {
+	transform: scale(0.9, 0.9);
+	-ms-transform: scale(0.9, 0.9); /* IE 9 */
+	-webkit-transform: scale(0.9, 0.9); /* Safari and Chrome */
+	-o-transform: scale(0.9, 0.9); /* Opera */
+	-moz-transform: scale(0.9, 0.9); /* Firefox */
+	background-color: rgba(0, 0, 0, 0.4);
+}
+#input > .row > div > * > * {
+	margin: 3px;
+}
+
+#input > .row > div > * {
+	float: left;
+	width: 50%;
+}
+
+#input > .row > div > .text > br {
+	margin-top: 6.2px;
+	margin-bottom: 6px;
+}
+
+#input > .row > div > .in > div > br {
+	margin-top: 6.2px;
+	margin-bottom: 6px;
+}
+
+#in-container {
+	background-image: url("https://nintendowire.com/wp-content/uploads/2016/09/Banner-Zelda-BreathOfTheWild-Cooking-1400x788.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+#in-container > div {
+	transform: scale(0.9, 0.9);
+	-ms-transform: scale(0.9, 0.9); /* IE 9 */
+	-webkit-transform: scale(0.9, 0.9); /* Safari and Chrome */
+	-o-transform: scale(0.9, 0.9); /* Opera */
+	-moz-transform: scale(0.9, 0.9); /* Firefox */
+	background-color: rgba(0, 0, 0, 0.4);
+}
