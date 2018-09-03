@@ -37,3 +37,7 @@
 #input > .row > div > .row > p {
 	font-size: 14px;
 }
+
+#input > .row {
+	padding: 10px;
+}

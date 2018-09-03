@@ -13,7 +13,7 @@ $(document).ready(function(){
 		}
 		$("#inputs" + column).append("<div class=\"row\" id=\"input" + i + "\">");
 		$("#input" + i).append("<p class=\"col-sm-6\">" + item.name + "</p>");
-		$("#input" + i).append("<input class=\"col-sm-6\" type=\"number\" min=\"0\" value=\"2\" id=\"inputItem" + item.id + "\">")
+		$("#input" + i).append("<input class=\"col-sm-6\" type=\"number\" min=\"0\" value=\"0\" id=\"inputItem" + item.id + "\">")
 		//$("#inputs" + column).children().eq(0).append(item.name + "<br />");
 		//$("#inputs" + column).children().eq(1).append("<input type=\"number\" min=\"0\" value=\"2\" id=\"inputItem" + item.id + "\"><br />");
 	}
