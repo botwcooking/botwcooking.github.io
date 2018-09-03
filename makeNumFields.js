@@ -8,7 +8,7 @@ $(document).ready(function(){
 		if(item.name.charAt(0) !== prevLetter) {
 			prevLetter = item.name.charAt(0);
 			$("#inputs" + column).append("<div id=\"marker" + i + "\">");
-			$("#marker" + i).append("<p class=\"col-sm-6\">" + item.name.charAt(0).toUpperCase() + "</p>");
+			$("#marker" + i).append("<p class=\"col-sm-6\"><strong>" + item.name.charAt(0).toUpperCase() + "</strong></p>");
 			$("#marker" + i).append("<div class=\"col-sm-6\"></div>");
 		}
 		$("#inputs" + column).append("<div class=\"row\" id=\"input" + i + "\">");

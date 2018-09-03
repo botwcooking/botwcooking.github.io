@@ -33,3 +33,7 @@
 	-moz-transform: scale(0.9, 0.9); /* Firefox */
 	background-color: rgba(0, 0, 0, 0.4);
 }
+
+#input > .row > div > .row > p {
+	font-size: 14px;
+}
