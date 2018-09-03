@@ -7,10 +7,14 @@ $(document).ready(function(){
 		if(i % 20 === 0) column++;
 		if(item.name.charAt(0) !== prevLetter) {
 			prevLetter = item.name.charAt(0);
-			$("#inputs" + column).children().eq(0).append("<strong>" + prevLetter.toUpperCase() + "</strong><br />");
-			$("#inputs" + column).children().eq(1).append("<div><br /></div>");
+			$("#inputs" + column).append("<div id=\"marker" + i + "\">");
+			$("#marker" + i).append("<p class=\"col-sm-6\">" + item.name.charAt(0).toUpperCase() + "</p>");
+			$("#marker" + i).append("<div class=\"col-sm-6\"></div>");
 		}
-		$("#inputs" + column).children().eq(0).append(item.name + "<br />");
-		$("#inputs" + column).children().eq(1).append("<input type=\"number\" min=\"0\" value=\"2\" id=\"inputItem" + item.id + "\"><br />");
+		$("#inputs" + column).append("<div id=\"input" + i + "\">");
+		$("#input" + i).append("<p class=\"col-sm-6\">" + item.name + "</p>");
+		$("#input" + i).append("<input class=\"col-sm-6\" type=\"number\" min=\"0\" value=\"2\" id=\"inputItem" + item.id + "\">")
+		//$("#inputs" + column).children().eq(0).append(item.name + "<br />");
+		//$("#inputs" + column).children().eq(1).append("<input type=\"number\" min=\"0\" value=\"2\" id=\"inputItem" + item.id + "\"><br />");
 	}
 });

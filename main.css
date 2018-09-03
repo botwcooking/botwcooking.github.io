@@ -15,24 +15,6 @@
 	-moz-transform: scale(0.9, 0.9); /* Firefox */
 	background-color: rgba(0, 0, 0, 0.4);
 }
-#input > .row > div > * > * {
-	margin: 3px;
-}
-
-#input > .row > div > * {
-	float: left;
-	width: 50%;
-}
-
-#input > .row > div > .text > br {
-	margin-top: 6.2px;
-	margin-bottom: 6px;
-}
-
-#input > .row > div > .in > div > br {
-	margin-top: 6.2px;
-	margin-bottom: 6px;
-}
 
 #in-container {
 	background-image: url("https://nintendowire.com/wp-content/uploads/2016/09/Banner-Zelda-BreathOfTheWild-Cooking-1400x788.jpg");
