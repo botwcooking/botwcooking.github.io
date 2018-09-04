@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	console.log("started!");
-	alert("Site under maintenance. It might be broken.");
+	//alert("Site under maintenance. It might be broken.");
 	var prevLetter = '0';
 	var column = 0;
 	for(var i = 0; i < items.length;i++) {
