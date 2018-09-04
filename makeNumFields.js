@@ -6,7 +6,7 @@ $(document).ready(function(){
 	for(var i = 0; i < items.length;i++) {
 		var item = items[i];
 		if(i % 20 === 0) {
-			$("#inputs" + column).append("<br />");
+			$("#inputs" + column).append("<br /><br /><br />");
 			column++;
 		}
 		if(item.name.charAt(0) !== prevLetter) {
