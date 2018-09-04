@@ -1,11 +1,14 @@
 $(document).ready(function(){
 	console.log("started!");
-	//alert("Site under maintenance. It might be broken.");
+	alert("Site under maintenance. It might be broken.");
 	var prevLetter = '0';
 	var column = 0;
 	for(var i = 0; i < items.length;i++) {
 		var item = items[i];
-		if(i % 20 === 0) column++;
+		if(i % 20 === 0) {
+			$("#inputs" + column).append("<br />");
+			column++;
+		}
 		if(item.name.charAt(0) !== prevLetter) {
 			prevLetter = item.name.charAt(0);
 			$("#inputs" + column).append("<div id=\"marker" + i + "\">");
