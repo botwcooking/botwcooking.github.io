@@ -90,7 +90,7 @@ function getNextSet() {
 	list[set[2].id]--;
 	set[3] = getMostExpensive();
 	list[set[3].id]--;
-	set[4] = items[getClosestToButNotUnder(0, list, set[0].price + set[1].price + set[2].price + set[3].price)];
+	set[4] = items[getClosestToButNotUnder(1, list, set[0].price + set[1].price + set[2].price + set[3].price)];
 	list[set[4].id]--;
 	return set;
 }
